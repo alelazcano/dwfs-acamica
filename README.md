@@ -9,4 +9,4 @@ Todos los trabajos prácticos tienen por origen el curso de Acamica.com el cual 
 
 VERSION ACCESIBLE DE ESTE REPOSITORIO Y DEMOs 
 
-Al día de la fecha es posible acceder desde https://github.com/alelazcano/dwfs-acamica y una versión navegable (BETA) desde alelazcano.netlify.com ó alelazcano.deargentina.info (2/9/2019).
+Al día de la fecha es posible acceder desde https://github.com/alelazcano/dwfs-acamica y una versión navegable (BETA) desde https://alelazcano.netlify.com ó https://alelazcano.deargentina.info (2/9/2019).
