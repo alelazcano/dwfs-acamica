@@ -1,0 +1,43 @@
+* {
+ /* border: 1px solid green; marca el borde de TODOS los elementos */
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: dodgerblue;
+    /* FUENTES valores por defecto */
+    font-family: monospace;
+    color: black;
+}
+
+/* Títulos y textos */
+h1 {
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 24pt;
+    text-shadow: 3px 3px 0px grey;
+}
+
+h2 {
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 20pt;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 18pt;
+}
+
+h4 {
+    font-family: Arial, Verdana;
+    font-size: 12pt;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Verdana;
+    font-size 12pt;
+    text-align: justify;
+}
