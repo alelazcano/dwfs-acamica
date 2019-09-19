@@ -23,13 +23,13 @@
 
 /* estilos izquierda */
 
-ul {
+ul { /* reinicio general para toda la página de lista */
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-li {
+.btn-lista li {
     padding: 5px;
     margin: 10px 20px 0 20px;
     background-color: burlywood;
@@ -44,7 +44,7 @@ li {
     color: black;
     text-decoration: none;
 }
-li:hover  {
+.btn-lista li:hover  {
     max-width: 90%;
     box-shadow: 5px 2px 10px 1px lightgrey;
 }
@@ -81,7 +81,6 @@ blockquote {
 
 .secciones-der {
     background-color: aliceblue;
- /*   border-radius: 15px 35px 0 0; */
     padding: 5px 20px 5px 30px;
     margin: 10px 0 15px 0;
     position:relative;
@@ -157,7 +156,17 @@ p {
     text-align: center;
     padding-bottom: 15px;
 }
-.portfolio img {
+
+.galeria.proyectos img {
+    max-height: 100px;
+    max-width: 150px;
+    display: inline-block;
+    width: 20%;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.galeria.portfolio img {
     width: 20%;
     height: auto;
     border-radius: 50%;
