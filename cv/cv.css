@@ -1,0 +1,140 @@
+/* 2 columnas, izq 30%, der 60%, márgen de acomodo 10% */
+
+.izq {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin: 70px 10px 20px 30px; /* arriba derecha abajo izq */
+    padding: 25px 5px 50px 5px;
+    vertical-align: top;
+    text-align: center;
+    background-color: ghostwhite;
+    box-shadow: 5px 5px black;
+}
+
+.der {
+    width: 60%;
+    position: absolute;
+        display: inline-block;
+    vertical-align: top;
+    margin: 40px 10px 30px 30px;
+    padding: 0;
+}
+
+/* estilos izquierda */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+    margin: 10px 20px 0 20px;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-family: Tahoma;
+    font-weight: 700;
+    color: black;
+}
+
+.btn-lista a {
+    color: black;
+    text-decoration: none;
+}
+li:hover  {
+    max-width: 90%;
+    box-shadow: 5px 2px 10px 1px lightgrey;
+}
+
+.img-perfil {
+    width: 90%;
+    margin-bottom: 15px;
+}
+    img:hover {
+    max-width: 90%;
+    box-shadow: 0 0 30px 1px lightgrey;
+}
+
+blockquote {
+    margin-top: 60px;
+    font-family: monospace;
+    font-size: 14pt;
+    text-align: justify;
+    color: darkblue;
+    background-color: none;
+}
+
+/* SECCIONES DERECHA */
+
+.presentacion {
+    position: sticky; /* deja flotante el nombre */
+    top: -15px;
+    background-color: aliceblue;
+    border-radius: 15px 15px 0 0;
+    padding: 20px 5px 5px 30px;
+    border-bottom: 2px solid black;
+    z-index: 10000;
+}
+
+.secciones-der {
+    background-color: aliceblue;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 20px 5px 30px;
+    margin: 10px 0 0 0;
+}
+.separador {
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: linear-gradient(to bottom, aliceblue, dodgerblue);
+}
+
+/* textos y títulos derecha */
+
+p {
+    margin: 0;
+    padding: 0 0 5px 0;
+    display: inline-block;
+    text-indent: 30px;
+}
+
+.presentacion h2, h3 {
+    margin: 0 0 5px 0;
+    padding: 0 0 0px 0;
+}
+.presentacion p { /* estilo + reset de estilo */
+    border-bottom: 1px dotted black;
+    margin: 0 0 5px 0;
+    padding: 0;
+    text-indent: 0;
+    width: 90%;
+    font-size: 10pt;
+}
+
+.secciones-der h3 {
+    display: inline-block;
+    padding: 15px 0 0 0;
+    width: 90%;
+    margin: 0 0 5px 0;
+    border-bottom: 2px solid black;
+    background-color: none;
+}
+
+.secciones-der h4 {
+    margin: 7px 0 5px; 0;
+}
+
+/* portfolio - galería de íconos */
+.galeria {
+    display: inline-block;
+    text-align: center;
+}
+.portfolio img {
+    width: 20%;
+    height: auto;
+}

@@ -1,9 +1,4 @@
-﻿/********************
- *      Alumno: Alejandro Lazcano
- *      Comisión: cor-4 DWFS Córdoba 
-**********************/
-
-//Declaración de variables
+﻿//Declaración de variables
 var nombreUsuario = "Pepegrillo";
 var clave = 777;
 var saldoCuenta = 4000;
@@ -53,14 +48,14 @@ function pagarServicios() {
 }
 
 function iniciarSesion() {
-    var pedirClave = parseInt(prompt("Ingrese clave de usuario"));
+    var pedirClave = parseInt(prompt("Ingrese clave de usuario (777)"));
         if (pedirClave == 777) {
             alert("Bienvenido " + nombreUsuario + "!");
             cargarNombreEnPantalla();
         }
         else {
-            saldoCuenta = 0;
-            limiteExtraccion = 0;
+            saldoCuenta = "ERROR";
+            limiteExtraccion = " - <b>Recargar página e ingresar la clave correcta</b>";
             alert("ERROR clave o usuario incorrecto, consulte al 0-800");
         }
     }
