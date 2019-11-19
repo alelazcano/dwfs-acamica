@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test Mocha & Chai, zona de pruebas</title>
+  <link rel="stylesheet" href="js/test/mocha.css" />
+  <!-- carga librerías necesarias de testing - Mocha & Chai -->
+  <script src="js/test/lib/jquery-1.11.2.js"></script>
+  <script src="js/test/test-lib/chai.js"></script>
+  <script src="js/test/test-lib/mocha.js"></script>
+  <script>mocha.setup('bdd');</script>
+  <!-- carga archivos propios a testear -->
+  <script src="js/operaciones-matematicas.js"></script>
+  <script src="js/test/bateria-de-test.js"></script>
+  <script>// dispara el test al arrancar la carga de la página //
+    window.onload = function() {
+         mocha.run()
+    };
+  </script>
+</head>
+
+<body>
+  <div id="mocha"></div>
+</body>
+
+</html>
