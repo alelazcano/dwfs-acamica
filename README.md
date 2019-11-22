@@ -6,6 +6,10 @@ Está inspirado y/o basado en el [Curso Diseño Web Full Stack de Acamica (DWFS)
 
 > Quizás te interese comenzar por este [Test usando Mocha y Chai](https://alelazcano.github.io/dwfs-acamica/zona-de-pruebas/test-mocha-chai/testing-Mocha-Chai.html), que tiene un bonito panel de visualización.
 
+> [HomeBanking](https://alelazcano.github.io/dwfs-acamica/homebanking/) es una simulación de "banco" donde podés acceder y realizar algunas tareas, visualizando el resultado de inmediato en la pantalla. Toda matemática básica y su gestión con funciones Javascript. Esta versión **no** posee login ni tampoco persistencia de los datos.
+
+> [Mi CV On-line](https://alelazcano.github.io/dwfs-acamica/cv/) es la primera versión _recién salida del horno_ de lo que fué el primer trabajo práctico de este curso. El planteo era jugar con CSS y HTML, insertar algunos efectos y respetar una plantilla modelo que nos proveyeron. Luego lo modernicé estéticamente, la verdad esa combinación de colores jamás me agradó. Tengo pendiente de subirlo.
+
 ### Más sobre mí...
 
 También podés visitar [mi perfil en Linkedin](https://linkedin.com/in/alejandrolazcano) para que podamos estar en contacto.
