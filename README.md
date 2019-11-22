@@ -14,4 +14,4 @@ Está inspirado y/o basado en el [Curso Diseño Web Full Stack de Acamica (DWFS)
 
 También podés visitar [mi perfil en Linkedin](https://linkedin.com/in/alejandrolazcano) para que podamos estar en contacto.
 
-_Una curiosidad:_ 9 años después, [encontré de pura casualidad mis primeros pasos en programación](https://github.com/alelazcano/carrito-cursodephp), las primeras líneas de código, cuando hice mi primer carrito de compras en PHP.
+_Una curiosidad:_ 9 años después, [encontré de pura casualidad mis primeros pasos en programación](https://github.com/alelazcano/carrito-cursodephp), las primeras líneas de código, cuando hice mi primer carrito de compras en PHP. Quizás en 10 años se me haga nostalgia [la primera clase de Javascript](https://alelazcano.github.io/dwfs-acamica/zona-de-pruebas/hola-mundo-js/).
