@@ -1,12 +1,17 @@
-# dwfs-acamica
-Trabajos prácticos, anotaciones, pruebas, ejercicios y más en base al curso Diseño Web Full Stack de Acamica (DWFS). Basado en HTML, CSS, Javascript, Node.js, SQL, APIs y otros.
+**Este repositorio agrupa trabajos prácticos**, anotaciones, codigos de pruebas, ejercicios y algunos apuntes sin coherencia o conexión total con el resto.
 
+Está inspirado y/o basado en el [Curso Diseño Web Full Stack de Acamica (DWFS)](https://www.acamica.com/desarrollo-web-full-stack), el cual tiene en sus contenidos académicos HTML, CSS, Javascript, Node.js, SQL, APIs, Docker, Git, y otros conceptos, librerías y conocimientos. Al menos en mi promoción, ya que está en permanente actualización basado en las dinámicas y exigencias del mercado IT, la propuesta incluía una decena de proyectos y desfíos, los cuales iré compartiendo poco a poco aquí una vez los tenga todos evaluados y listos.
 
-LICENCIA DE TODOS LOS CONTENIDOS EN ESTE REPOSITORIO
+### Tabla de contenidos:
 
-Todos los trabajos prácticos tienen por origen el curso de Acamica.com el cual realicé durante el año 2019 de manera presencial en Córdoba. Si bien el desarrollo y completado bajo consignas lo realicé personal e individualmente, derivan de dicha propuesta educativa, sus docentes y equipo de desarrollo académico.
+> Quizás te interese comenzar por este [Test usando Mocha y Chai](https://alelazcano.github.io/dwfs-acamica/zona-de-pruebas/test-mocha-chai/testing-Mocha-Chai.html), que tiene un bonito panel de visualización.
 
+> [HomeBanking](https://alelazcano.github.io/dwfs-acamica/homebanking/) es una simulación de "banco" donde podés acceder y realizar algunas tareas, visualizando el resultado de inmediato en la pantalla. Toda matemática básica y su gestión con funciones Javascript. Esta versión **no** posee login ni tampoco persistencia de los datos.
 
-VERSION ACCESIBLE DE ESTE REPOSITORIO Y DEMOs 
+> [Mi CV On-line](https://alelazcano.github.io/dwfs-acamica/cv/) es la primera versión _recién salida del horno_ de lo que fué el primer trabajo práctico de este curso. El planteo era jugar con CSS y HTML, insertar algunos efectos y respetar una plantilla modelo que nos proveyeron. Luego lo modernicé estéticamente, la verdad esa combinación de colores jamás me agradó. Tengo pendiente de subirlo.
 
-Al día de la fecha es posible acceder desde https://github.com/alelazcano/dwfs-acamica y una versión navegable (BETA) desde https://alelazcano.netlify.com ó https://alelazcano.deargentina.info (2/9/2019).
+### Más sobre mí...
+
+También podés visitar [mi perfil en Linkedin](https://linkedin.com/in/alejandrolazcano) para que podamos estar en contacto.
+
+_Una curiosidad:_ 9 años después, [encontré de pura casualidad mis primeros pasos en programación](https://github.com/alelazcano/carrito-cursodephp), las primeras líneas de código, cuando hice mi primer carrito de compras en PHP. Quizás en 10 años se me haga nostalgia [la primera clase de Javascript](https://alelazcano.github.io/dwfs-acamica/zona-de-pruebas/hola-mundo-js/).

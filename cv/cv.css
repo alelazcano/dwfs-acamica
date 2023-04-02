@@ -35,7 +35,7 @@ li {
     background-color: burlywood;
     border-radius: 5px;
     font-size: 12pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Tahoma;
     font-weight: 700;
     color: black;
 }
@@ -81,34 +81,17 @@ blockquote {
 
 .secciones-der {
     background-color: aliceblue;
- /*   border-radius: 15px 35px 0 0; */
+    border-radius: 15px 15px 0 0;
     padding: 5px 20px 5px 30px;
-    margin: 10px 0 15px 0;
-    position:relative;
+    margin: 10px 0 0 0;
 }
-
-    .secciones-der:before { /*punta cortada */
-        content:"";
-        position:absolute;
-        margin-right: 0px;
-        top:0;
-        right: 0;
-        border-width: 0px 45px 45px 0px;
-        border-style: solid;
-        border-color: aliceblue rgb(17, 75, 133);
-    }
-    .secciones-der:hover {
-        /* SOMBRA interior, prof lateral, prof vertical, BLUR, color */
-        box-shadow: inset 0 0 5px black; 
-    }
-
-.separadores {
+.separador {
     width: 100%;
-    height: 35px;
-    padding: 0px;
-    margin-top: 0px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
     display: inline-block;
-    background: linear-gradient(to bottom, aliceblue 30%, dodgerblue 70%) !important;
+    background: linear-gradient(to bottom, aliceblue, dodgerblue);
 }
 
 /* textos y títulos derecha */
@@ -120,7 +103,7 @@ p {
     text-indent: 30px;
 }
 
-.presentacion h1, h2 {
+.presentacion h2, h3 {
     margin: 0 0 5px 0;
     padding: 0 0 0px 0;
 }
@@ -133,10 +116,6 @@ p {
     font-size: 10pt;
 }
 
-.presentacion a {
-    margin: 0 5px 0 5px;
-}
-
 .secciones-der h3 {
     display: inline-block;
     padding: 15px 0 0 0;
@@ -147,52 +126,15 @@ p {
 }
 
 .secciones-der h4 {
-    margin: 7px 0 5px 0;
+    margin: 7px 0 5px; 0;
 }
-
 
 /* portfolio - galería de íconos */
 .galeria {
     display: inline-block;
     text-align: center;
-    padding-bottom: 15px;
 }
 .portfolio img {
     width: 20%;
     height: auto;
-    border-radius: 50%;
-    margin-top: 15px;
-}
-
-.formulario {
-    width: 100%;
-}
-
-.formulario input, textarea, button {
-    font-family: 'B612 Mono', monospace;
-    font-size: 14px;
-    width: 95%;
-    margin-bottom: 5px;
-}
-
-.formulario.col1 {
-    width: 40%;
-    display: inline-block;
-    position: relative;
-}
-
-.formulario.col2 {
-    width: 55%;
-    display: inline-block;
-    position: absolute;
-    border: dotted 2px black;
-}
-
-.formulario li {
-    background-color: aliceblue;
-    border: solid 1px black;
-    font-size: 12px;
-    display: inline-flex;
-    margin: 5px 0px;
-
 }
